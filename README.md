@@ -1,7 +1,7 @@
 # Claudia: 
 Claudia is an AI-powered coding assistant built on top of the Anthropic API. It's designed to help developers with various coding tasks, provide explanations, and even execute Python code in a controlled environment.
 
-["test.png"](https://www.youtube.com/watch?v=oTHo2PObFQ0)
+[![]("test.png")](https://www.youtube.com/watch?v=oTHo2PObFQ0)
 
 
 ## Features
