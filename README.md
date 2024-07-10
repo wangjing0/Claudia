@@ -29,19 +29,8 @@ Claudia is an AI-powered coding assistant built on top of the Anthropic API. It'
 
 ## Usage
 
-### Basic Usage
 
-To start a conversation with Claudia:
-
-```python
-from claudia import Claudia
-
-chat = Claudia()
-response = chat("How do I implement a binary search in Python?")
-print(response)
-```
-
-### CoderClaudia
+### CoderClaudia Basic Usage
 
 To use Claudia with code execution capabilities:
 
@@ -71,14 +60,6 @@ coder = CoderClaudia(model=CLAUDE_MODEL, system_prompt=system_prompt)
 
 ## Advanced Features
 
-### Streaming Responses
-
-To stream responses in real-time:
-
-```python
-for chunk in chat("Explain object-oriented programming", stream=True):
-    print(chunk, end='', flush=True)
-```
 
 ### Using Custom Tools
 
@@ -90,6 +71,14 @@ def custom_tool(arg1, arg2):
     return result
 
 chat = Claudia(tools=[custom_tool])
+```
+### Streaming Responses
+
+To stream responses in real-time:
+
+```python
+for chunk in chat("Explain object-oriented programming", stream=True):
+    print(chunk, end='', flush=True)
 ```
 
 ## Contributing
