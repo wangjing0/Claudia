@@ -1,0 +1,5 @@
+toolslm
+anthropic
+python-dotenv
+fastcore
+colorama==0.4.6
