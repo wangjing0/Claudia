@@ -5,7 +5,7 @@ Claudia is an AI-powered coding assistant built on top of the Anthropic API. It'
 
 
 <a href="https://www.youtube.com/watch?v=oTHo2PObFQ0" target="_blank">
- <img src="https://img.youtube.com/vi/oTHo2PObFQ0/0.jpg" alt="demo" width="500" height="600" border="10" />
+ <img src="https://img.youtube.com/vi/oTHo2PObFQ0/0.jpg" alt="demo" width="900" height="600" border="10" />
 </a>
 
 ## Features
