@@ -411,7 +411,8 @@ def test():
     CLAUDE_MODEL = 'claude-3-5-sonnet-20240620'
     coder = CoderClaudia(model=CLAUDE_MODEL, ask=True)
 
-    task = '''find the smallest integer that has its square root larger the meaning of life. hint: use binary search''' 
+    #task = '''find the smallest integer that has its square root larger the meaning of life. hint: use binary search''' 
+    task='''Shawna’s father is five times as old as Shawna. Shawna is currently three times as old as Aliya. If Aliya is 3 years old, how old is Shawna’s father?'''
     _ = coder.run(prompt=task, max_loops=3)
     display(coder.use.__repr__())
     #display(coder.history)
